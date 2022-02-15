@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.fate{
+    
+    background: linear-gradient(to bottom, #111, transparent);
+    top:0;
+    padding-top: 0.1px;
+}
+
+.container{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding:4px 0;
+    
+    
+}
+
+.container .card {
+    position: relative;
+    min-width: 220px;
+    height: 340px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05)
+                inset -5px -5px -5px rgba(255, 255, 255, 0.05)
+                5px 5px 5px rgba(0, 0, 0, 0.05)
+                -5px -5px -5px rgba(255, 255, 255, 0.05);
+
+    border-radius: 15px;
+    margin: 5px;
+
+}
+
+.container .card .box {
+
+    position: absolute;
+    top:20px;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+    /* background: #b4b36c; */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container .card .box .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.container .card .box .content p {
+
+    font-size: 1.3em;
+    font-weight: 300;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.corP{
+   color: #EAEDED;
+}
