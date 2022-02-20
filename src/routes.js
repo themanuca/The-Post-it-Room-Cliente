@@ -4,6 +4,9 @@ import {BrowserRouter,Routes, Route } from 'react-router-dom';
 import Login from "./pages/admin/login/index";
 import Register from "./pages/admin/register/index.jsx";
 
+import Dashboard from "./pages/admin/dashboard";
+
+
 import Home from "./pages/home";
 
 export default function Rotas(){
@@ -16,6 +19,7 @@ export default function Rotas(){
                 {/* ROTA ADMIN */}
                 <Route path="/login" element={<Login/>} />
                 <Route path="/register" element={<Register/>}/>
+                <Route path='/dashboard/:id' element={<Dashboard/>}/>
             </Routes>
         </BrowserRouter>
     )
