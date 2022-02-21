@@ -118,6 +118,13 @@ export const Alermsg = styled.div`
     font-size: 18px;
     font-weight: 600;
     width: 60vw;
+    @media(min-width:600px){
+        width: 60%;
+        margin-bottom: 30px;
+        
+
+
+    }
     height: 100%;
     background-color: #cc1100;
     justify-content: center;

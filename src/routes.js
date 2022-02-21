@@ -9,9 +9,13 @@ import Dashboard from "./pages/admin/dashboard";
 
 import Home from "./pages/home";
 
+
+
+
 export default function Rotas(){
     return(
         <BrowserRouter>
+        {/* <Provider> */}
             <Routes>
                 {/* ROTA CLIENTE */}
                 <Route path="/" element={<Home/>} />
@@ -21,6 +25,7 @@ export default function Rotas(){
                 <Route path="/register" element={<Register/>}/>
                 <Route path='/dashboard/:id' element={<Dashboard/>}/>
             </Routes>
+        {/* </Provider> */}
         </BrowserRouter>
     )
 }
