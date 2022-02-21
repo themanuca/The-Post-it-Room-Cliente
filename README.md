@@ -1,7 +1,10 @@
 # The Post it Room Cliente
 
 Projeto de compartilhamento de anotações e comentários, de maneira anônima.
+<br>
 <br> Este repositório é apenas a parte do client, o server se encontrar nesse repositórios: https://github.com/themanuca/The-Post-it-Room-server
+<br>
+<br>
 Link do video do projeto funcionando: https://www.linkedin.com/posts/sergio-manoel-639060115_nodejs-reactjs-jwt-activity-6901356485482205184-4vxL
 <br>
 <br>
