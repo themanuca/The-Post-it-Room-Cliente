@@ -5,4 +5,4 @@ Projeto de compartilhamento de anotações e comentários, de maneira anônima.
 <br>
 Para clone do projeto, recomendo que faça, dentro da api rest, que se encontra no link acima.
 <br>
-# IMAGEM 1:
+# HOME:
