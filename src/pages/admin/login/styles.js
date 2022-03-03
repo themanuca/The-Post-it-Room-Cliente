@@ -92,6 +92,18 @@ background: linear-gradient(to right, #4776e6, #8e54e9);
 
 }
 
+.regis{
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: linear-gradient(to left, #4776e6, #8e54e9);
+    width: 150px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size:0.9rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
 
 `;
 

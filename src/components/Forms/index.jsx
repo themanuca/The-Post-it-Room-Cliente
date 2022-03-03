@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import { Container,Content, Alermsg } from "./styles";
 import api from '../../services/api';
 import axios from "axios";
+//import { redirect } from "express/lib/response";
 
 export default function Forms(){
 
@@ -45,7 +46,11 @@ export default function Forms(){
     useEffect(()=>{
         var pad = 1;
     },[msg])
-    
+
+    function redirectLogar(){
+        window.location.href ='/login';
+
+    }
 
     return (
         <Container>
@@ -103,9 +108,18 @@ export default function Forms(){
                 
                     <input 
                     type="submit" 
-                    value='Enviar' 
+                    value='Registrar' 
                     onClick={salvar}/>
+
                 </form>
+
+                <input 
+                    className="Logeer"
+                    type="submit" 
+                    value='Logar' 
+                    onClick={redirectLogar}/>
+
+
             </Content>
         </Container>
     )

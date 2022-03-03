@@ -80,7 +80,9 @@ export default function Home({children}){
     },[msg])
     
 
-
+    function RedirectRegister(){
+        window.location.href ='/register';
+    }
 
     return(
         <Container>
@@ -118,11 +120,15 @@ export default function Home({children}){
                 
                     <input 
                     type="submit" 
-                    value='Enviar' 
+                    value='Entrar' 
                     onClick={Login}/>
                 </form>
 
-                
+                <input
+                    className="regis" 
+                    type="submit" 
+                    value='Registrar' 
+                    onClick={RedirectRegister}/>
             </Content>
         </Container>
     )

@@ -14,6 +14,8 @@ import Login from "../../../pages/admin/login/index"
 import Register from "../../../pages/admin/register/index";
 
 import Dashboard from "../../../pages/admin/dashboard";
+import Dashboard_post from "../../../pages/admin/dashboard/post";
+
 import api from "../../../services/api";
 
 import Home from "../../../pages/home";
@@ -101,7 +103,7 @@ const AppRoutes = ()=>{
                     <Route path="/login" element={<Login/>} />
                     <Route path="/register" element={<Register/>}/>
                     <Route path='/dashboard/:id' element={<Private><Dashboard/></Private>}/>
-                
+                    <Route path='/dashboard/:id/post' element={<Private><Dashboard_post/></Private>}/>
                 
                 </Routes>
             </AuthContext.Provider>
