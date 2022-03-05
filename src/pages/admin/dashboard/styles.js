@@ -1,4 +1,13 @@
-import styled from 'styled-components';
+import styled, {createGlobalStyle} from 'styled-components';
+
+export const GlobalStyle = createGlobalStyle`
+
+html{
+    background-color: #D3D3D3	;
+}
+
+`;
+
 
 export const Container = styled.div`
     >H1{
@@ -6,17 +15,41 @@ export const Container = styled.div`
         
     }
  
+
+
+
+
 `;
 
 
 export const Content = styled.div`
-    >img{
+
+  
+  >img{
       width: 100vw;
       height: 100vh;
       
   }
+
+
+.title{
+    padding: 1rem;
+}
+
+
+
 `;
 
+export const Container_card = styled.div`
+     @media(min-width: 800px){
+        display: flex;
+        flex-wrap: wrap;
+    }
+    justify-content: center;
+     
+    
+
+`;
 
 export const Container_Menu = styled.nav`
 width: 100vw;
@@ -30,7 +63,7 @@ justify-content: space-around;
 
 div{
     
-    padding-top:1rem;
+    padding-top:0.7rem;
     align-items: center;
 }
 
@@ -48,6 +81,7 @@ div{
         border-radius: 6px;
         color: white;
         font-weight: 600;
+        cursor: pointer;
     }
     
 }

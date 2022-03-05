@@ -20,12 +20,16 @@ function Post() {
 
     //console.log(value.userID)
     
+    console.log(check);
 
     async function handleSubmit(){
+      
+
         if(digitado.length  >= 10){
             let userid = localStorage.getItem('user');
             let value = JSON.parse(userid)
 
+            
             const data = {
                 post_id:value.userID,
                 post_texto:digitado,
@@ -52,8 +56,8 @@ function Post() {
        //await setDisableCor("true")
 
        var tst = document.querySelector(`[value=` + `"${e.target.value}"]`)
-      
-       console.log(tst)
+       
+       //console.log(tst)
     }
 
     var v = digitado.length

@@ -1,6 +1,6 @@
 import React, {useContext, useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
-import { Container,Content, Container_Menu } from "./styles";
+import { Container,Content, Container_Menu,Container_card, GlobalStyle } from "./styles";
 import {AuthContext} from '../../../components/contexts/auth';
 import imgback from '../../../img/backconstruc.jpg'
 import api from "../../../services/api";
@@ -42,18 +42,22 @@ function Dashboard() {
     }
   return(
       
-
+    
         <Container>
+            <GlobalStyle/>
 
+            
            <Content>
-               <h2>My Post-it Room</h2>
-              
-               {cardPost.map((item)=>(
-                        
-                        <Card key={item._id}   cor={item.post_cor} texto={item.post_texto}/>
-                        
-                    ))}
+               <h2 className="title">My Post-it Room</h2>
+                <Container_card>
+                    {cardPost.map((item)=>(
+                                
+                                <Card key={item._id}   cor={item.post_cor} texto={item.post_texto}/>
+                                
+                            ))}
 
+                </Container_card>
+                
                 <Container_Menu>
 
                     <div>                  
