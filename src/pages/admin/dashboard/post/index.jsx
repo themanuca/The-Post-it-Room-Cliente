@@ -12,7 +12,7 @@ function Post() {
     const [check, setCheck ] = useState(""); // Recebe o valor das cores do postit, escolhido pelo o user.
     const [ disableCor, setDisableCor]=useState("")//Permite que apenas uma cor por vez seja clicada
 
-    var url = rocess.env.REACT_APP_API_URL
+    var url = process.env.REACT_APP_API_URL
 
     // let userid = localStorage.getItem('user');
     // let value = JSON.parse(userid)

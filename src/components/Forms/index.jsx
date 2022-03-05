@@ -6,7 +6,7 @@ import axios from "axios";
 
 export default function Forms(){
 
-    var url = rocess.env.REACT_APP_API_URL;
+    var url = process.env.REACT_APP_API_URL;
 
     const [nome, setNome] = useState('');
     const [username, setUsername] = useState('');

@@ -16,7 +16,7 @@ const Home = () =>{
     const [ disableCor, setDisableCor]=useState("")//Permite que apenas uma cor por vez seja clicada
     
     
-    var url = "http://localhost:5000"
+    var url = process.env.REACT_APP_API_URL;
 
 
     // Função async para enviar os dados para a rota - POST

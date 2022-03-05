@@ -8,7 +8,7 @@ import axios from "axios";
 import { AuthContext } from "../../../components/contexts/auth";
 
 export default function Home({children}){
-    var url = rocess.env.REACT_APP_API_URL;
+    var url = process.env.REACT_APP_API_URL;
 
     const navigate = useNavigate();
 

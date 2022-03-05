@@ -12,7 +12,7 @@ function Dashboard() {
     const {id} = useParams();
 
 
-    var url = rocess.env.REACT_APP_API_URL
+    var url = process.env.REACT_APP_API_URL
 
     useEffect(()=>{
         async function carregaPost(){
