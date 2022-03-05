@@ -3,7 +3,7 @@ import axios from "axios";
 import { getToken } from "./auth";
 
 const api = axios.create({
-    url : "http://localhost:5000/"
+    url : process.env.REACT_APP_API_URL
 })
 
 

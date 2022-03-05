@@ -8,7 +8,7 @@ import axios from "axios";
 import { AuthContext } from "../../../components/contexts/auth";
 
 export default function Home({children}){
-    var url = "http://localhost:5000";
+    var url = rocess.env.REACT_APP_API_URL;
 
     const navigate = useNavigate();
 
@@ -101,7 +101,7 @@ export default function Home({children}){
                         name='email'
                         value={email}
                         onChange={e=>setEmail(e.target.value)}required
-                        required
+                        
                         autoComplete="email"
                         />
                     </div>
@@ -113,7 +113,7 @@ export default function Home({children}){
                         name='password'
                         value={senha}
                         onChange={e=>setSenha(e.target.value)}required
-                        required
+                        
                         autoComplete="current-password"
                         />
                     </div>
