@@ -24,13 +24,13 @@ const Home = () =>{
     // Função async para enviar os dados para a rota - POST
     async function handleSubmit(){
         if(digitado.length  >= 10){
-            console.log("teste ");
+           
             const data = {
                 post_texto:digitado,
                 post_cor:check
             }
             
-            const response = await api.post(url+'/api/post',data);
+            const response = await api.post(url+'api/post',data);
     
             if(response.status == 200){
                 window.location.href ='/'
