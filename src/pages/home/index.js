@@ -18,7 +18,7 @@ const Home = () =>{
     const [ disableCor, setDisableCor]=useState("")//Permite que apenas uma cor por vez seja clicada
     
     
-    var url = process.env.REACT_APP_API_URL;
+    var url = "https://thepostitroom-client.herokuapp.com/";
     console.log(url);
 
     // Função async para enviar os dados para a rota - POST
