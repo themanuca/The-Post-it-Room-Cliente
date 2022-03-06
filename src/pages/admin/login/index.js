@@ -4,7 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Container,Content,Alermsg } from "./styles";
 import api from '../../../services/api';
 import axios from "axios";
-require("dotenv/config");
+//require("dotenv/config");
 
 
 import { AuthContext } from "../../../components/contexts/auth";

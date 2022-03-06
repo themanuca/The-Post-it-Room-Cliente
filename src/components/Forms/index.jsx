@@ -3,7 +3,7 @@ import { Container,Content, Alermsg } from "./styles";
 import api from '../../services/api';
 import axios from "axios";
 //import { redirect } from "express/lib/response";
-require("dotenv/config");
+//require("dotenv/config");
 
 export default function Forms(){
 

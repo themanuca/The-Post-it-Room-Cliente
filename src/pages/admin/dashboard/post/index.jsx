@@ -4,7 +4,7 @@ import { Container, Content,AreaPost } from "./styles";
 import api from "../../../../services/api";
 import Cores from "../../../../components/cores/index"
 import { Button } from "../../../../components/btn/styles";
-require("dotenv/config");
+//require("dotenv/config");
 
 // import { Container } from './styles';
 
