@@ -48,7 +48,7 @@ const Home = () =>{
     //Função para PUXAR os dados do banco - GET/FIND
     useEffect(()=>{
         async function carregaPost(){
-            const response = await api.get(url+"/");
+            const response = await api.get(url);
             setCardpost(response.data.reverse())
         }
         carregaPost();
