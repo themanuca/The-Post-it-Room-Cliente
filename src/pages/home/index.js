@@ -7,7 +7,6 @@ import api from "../../services/api";
 import Card from "../../components/card";
 import Cores from "../../components/cores/index"
 import { set } from "mongoose";
-require("dotenv/config");
 
 
 const Home = () =>{
