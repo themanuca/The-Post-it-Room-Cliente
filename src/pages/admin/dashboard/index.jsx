@@ -5,6 +5,8 @@ import {AuthContext} from '../../../components/contexts/auth';
 import imgback from '../../../img/backconstruc.jpg'
 import api from "../../../services/api";
 import Card from "../../../components/card";
+require("dotenv/config");
+
 
 function Dashboard() {
 
