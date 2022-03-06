@@ -44,6 +44,7 @@
     "dotenv-webpack": "^7.1.0",
     "fs": "^0.0.1-security",
     "mini-css-extract-plugin": "2.6.0",
+    "os": "^0.1.2",
     "path": "^0.12.7"
   },
   "browser": {
