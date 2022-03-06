@@ -11,6 +11,7 @@ import { AuthContext } from "../../../components/contexts/auth";
 
 export default function Home({children}){
     var url = process.env.REACT_APP_API_URL;
+    console.log(url+ "URL ENV");
 
     const navigate = useNavigate();
 
@@ -25,14 +26,14 @@ export default function Home({children}){
  
     async  function Login(e){
         e.preventDefault();
-
+        console.log('btn clicado, erro abaxio')
         const data = {
             email_user:email, 
             senha_user:senha, 
         } 
         
      
-        const response = await api.post(url + '/api/user/login',data)
+        const response = await api.post(url + '/user/login',data)
         
         localStorage.setItem("token", response.data.token)
         var userID = response.data.userid;
