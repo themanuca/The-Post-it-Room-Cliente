@@ -47,8 +47,6 @@
     "fs": false,
     "path": false,
     "os": false
-  },
-  "node": {
-    "fs": "empty"
   }
+ 
 }
