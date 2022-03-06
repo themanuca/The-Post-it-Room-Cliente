@@ -4,6 +4,7 @@ export const GlobalStyle = createGlobalStyle`
 
 html{
     background:linear-gradient(45deg,#8e2de2, #4a00e0 );
+    background-repeat: no-repeat;
 }
 
 `;
@@ -34,6 +35,7 @@ export const Content = styled.div`
 
 .title{
     padding: 1rem;
+    color:#fff ;
 }
 
 
