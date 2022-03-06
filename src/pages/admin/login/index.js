@@ -32,7 +32,7 @@ export default function Home({children}){
         } 
         
      
-        const response = await api.post(url + '/api/user/login',data)
+        const response = await api.post(url + 'api/user/login',data)
         
         localStorage.setItem("token", response.data.token)
         var userID = response.data.userid;
