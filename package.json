@@ -45,10 +45,10 @@
   },
 
   "browser": {
-    "crypto": false,
-    "fs": false
-   
-    },
+    "fs": false,
+    "path": false,
+    "os": false
+  },
     "node": {
       "fs": "empty"
    }
