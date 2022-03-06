@@ -114,11 +114,11 @@ export default function Forms(){
 
                 </form>
 
-                <input 
+               <label> Já tem cadastro ?  <input 
                     className="Logeer"
                     type="submit" 
                     value='Logar' 
-                    onClick={redirectLogar}/>
+                    onClick={redirectLogar}/></label>
 
 
             </Content>

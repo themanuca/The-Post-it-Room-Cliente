@@ -126,11 +126,13 @@ export default function Home({children}){
                     value='Entrar' 
                     onClick={Login}/>
                 </form>
-                <input
+                
+                <label> Cadastre-se  <input
+                    
                     className="regis" 
                     type="submit" 
                     value='Registrar' 
-                    onClick={RedirectRegister}/>
+                    onClick={RedirectRegister}/> </label>
             </Content>
         </Container>
     )
