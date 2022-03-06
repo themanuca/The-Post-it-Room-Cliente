@@ -25,7 +25,7 @@ export default function Forms(){
             username_user:username,
         } 
        
-        const res = await api.post(url + '/api/register',data);
+        const res = await api.post(url + '/user/register',data);
        
 
             if(res.status === 200){
