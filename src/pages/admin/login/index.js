@@ -126,7 +126,6 @@ export default function Home({children}){
                     value='Entrar' 
                     onClick={Login}/>
                 </form>
-
                 <input
                     className="regis" 
                     type="submit" 

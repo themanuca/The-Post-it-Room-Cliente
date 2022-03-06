@@ -92,10 +92,10 @@ background: linear-gradient(to right, #4776e6, #8e54e9);
 }
 
 .regis{
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     padding: 0.4rem;
     background: linear-gradient(to left, #4776e6, #8e54e9);
-    width: 150px;
+    width: 110px;
     color: white;
     font-weight: 600;
     cursor: pointer;
