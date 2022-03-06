@@ -19,7 +19,7 @@ const Home = () =>{
     
     
     var url = process.env.REACT_APP_API_URL;
-
+    console.log(url);
 
     // Função async para enviar os dados para a rota - POST
     async function handleSubmit(){
