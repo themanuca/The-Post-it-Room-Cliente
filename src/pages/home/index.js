@@ -30,7 +30,7 @@ const Home = () =>{
                 post_cor:check
             }
             
-            const response = await api.post(url+'api/post',data);
+            const response = await api.post(url+'/post',data);
     
             if(response.status == 200){
                 window.location.href ='/'
