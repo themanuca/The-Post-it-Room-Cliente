@@ -45,8 +45,7 @@ export const Content = styled.div`
     color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    
    
 }
 >form label {

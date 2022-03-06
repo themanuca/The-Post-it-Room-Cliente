@@ -27,7 +27,6 @@ export const Content = styled.div`
     color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;
 
    
 }
@@ -42,6 +41,7 @@ export const Content = styled.div`
     margin-top: 2rem;
 }
 >form input {
+    
     background:#E5EAEE ;
     width: 300px;
     height: 40px;
